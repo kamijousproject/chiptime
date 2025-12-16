@@ -29,6 +29,21 @@ pip install flask requests
 | `sender.py` | ส่งข้อมูล RFID events ไปยัง remote server |
 | `logs/` | โฟลเดอร์เก็บ log files |
 
+## การติดตั้ง
+
+```bash
+# Clone repository
+git clone https://github.com/kamijousproject/chiptime.git
+cd chiptime
+
+# ติดตั้ง dependencies
+pip install -r requirements.txt
+
+# สร้างโฟลเดอร์ logs และตั้ง permission
+mkdir -p logs
+chmod 777 logs
+```
+
 ## วิธีใช้งาน
 
 ### 1. เริ่มต้น Control Panel
